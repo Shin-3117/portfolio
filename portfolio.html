@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .AboutMeTitle {
+            font-size: larger;
+            width: 200px;
+            margin: 4px 0 0 8px;
+            padding: 4px;
+            padding-left: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .AboutMeFirst{
+            display: flex;
+            align-items: center;
+        }
+        .AboutMeFirstText{
+            background-color: black;
+            padding: 4px;
+            border-radius: 16px;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        .iconContainer{
+            border-bottom: 1px ghostwhite solid;
+        }
+        .iconImage{
+            padding-left: 8px;
+        }
+        .AboutMeInfoWrapper{
+            color: white;
+        }
+        
+        
+    </style>
+    <script src="https://kit.fontawesome.com/4578d36163.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <h1 class="navbar-brand">포트폴리오</h1>
+                <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" 
+                          href="#">
+                          자기소개
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" 
+                          href="#">
+                          경력
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                            href="#">
+                            기술 스택
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                            href="#">
+                            프로젝트
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                            href="https://github.com/Shin-3117"
+                            target="_blank">
+                            깃허브
+                            </a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="AboutMe bg-black p-3">
+            <h2 class="AboutMeTitle bg-dark text-white"> 자기소개</h2>
+            <div class="AboutMeFirst bg-dark text-white p-2">
+                <i class="iconImage fa-solid fa-arrow-left fa-lg"></i>
+                <i class="iconImage fa-solid fa-arrow-right fa-lg"></i>
+                <i class="iconImage px-2 fa-solid fa-rotate-left fa-flip-horizontal fa-lg"></i>
+                <div class="AboutMeFirstText"> 
+                    프론트엔드 개발자 신현중의 포트폴리오 입니다.</div>
+            </div>
+            <div class="iconContainer bg-dark text-white p-2">
+                <i class="iconImage fa-brands fa-html5 fa-lg"></i>
+                <i class="iconImage fa-brands fa-css3-alt fa-lg"></i>
+                <i class="iconImage fa-brands fa-sass fa-lg"></i>
+                <i class="iconImage fa-brands fa-bootstrap fa-lg"></i>
+                <i class="iconImage fa-brands fa-js fa-lg"></i>
+                <i class="iconImage fa-brands fa-react fa-lg"></i>
+                <img class="iconImage" src="recoil-icon-seeklogo.com.svg" alt="recoil logo">
+                <i class="iconImage fa-brands fa-vuejs fa-lg"></i>
+                <i class="iconImage fa-brands fa-python fa-lg"></i>
+                <i class="iconImage fa-brands fa-github fa-lg"></i>
+                <i class="iconImage fa-brands fa-figma fa-lg"></i>
+            </div>
+            <div class="AboutMeInfoWrapper container-fluid bg-dark">
+                <!-- <h3 class=" text-center">프론트엔드 개발자 신현중</h3> -->
+                <div class="row">
+                    <h3 class="col-12 text-center">Development for Human</h3>
+                    <h3 class="col-12 text-center">사용자를 위하는 개발자가 목표입니다</h3>
+                    
+                    <div class="col-12 col-sm-6">
+                        <p>이름 : 신현중</p>
+                        <p>생년월일 : 1997.03.28</p>
+                        <p>학력 : 부산대학교</p>
+                    </div>
+                    <div class="col-12 col-sm-6 contact">
+                        <h4>Contact</h4>
+                        <p>연락처 : 010-8662-3117</p>
+                        <p>이메일 : tlswnd3127@gmail.com</p>
+                        <p>깃허브 : 
+                            <a class="nav-link" 
+                            href="https://github.com/Shin-3117"
+                            target="_blank">https://github.com/Shin-3117</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- <p>이름 : 신현중</p> -->
+                
+                
+
+                
+                
+                
+                
+            </div>
+            
+        </section>
+        <section>
+            <h2>경력</h2>
+            <p>매그나칩반도체</p>
+        </section>
+        <section>
+            <h2>기술 스택</h2>
+        </section>
+        <section>
+            <h2>프로젝트</h2>
+        </section>
+    </main>
+    <footer>
+        이름 번호 이메일 등등
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
