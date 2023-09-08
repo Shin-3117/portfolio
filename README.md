@@ -2,4 +2,9 @@
 portfolio
 
 ## 배포하는 법
-기본적으로 : index.html
+git pages로 배포
+
+index.html를 배포합니다.
+
+github repository -> setting -> pages
+-> branch : 설정
