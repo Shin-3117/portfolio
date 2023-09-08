@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4578d36163.js" crossorigin="anonymous"></script>
-
+    <link rel="icon" href="/img/favicon.ico">
     <title>포트폴리오</title>
     <style>
         .AboutMe{
-            padding: 4%;
+            /* height: 100vh; */
+            padding: 4% 4%;
+
             animation: fadein 3s;
         }
         @keyframes fadein {
@@ -57,7 +59,7 @@
             align-items: center;
             align-content: center;
             /* justify-content: center; */
-            margin: 20px;
+            margin: 20px auto;
             
         }
         .xlIconContainer{
@@ -114,9 +116,10 @@
         }
         #projects{
             padding: 4% 8% 8%;
+            margin: auto;
         }
         .card{
-
+            max-width: 600px;
         }
     </style>
     
@@ -199,7 +202,7 @@
                 <i class="iconImage fa-brands fa-git-alt fa-lg" style="color: #f34f29;"></i>
                 <i class="iconImage fa-brands fa-figma fa-lg" style="color: #ffffff;"></i>
             </a>
-            <a href="https://github.com/Shin-3117">
+            <a href="https://github.com/Shin-3117" target="_blank">
                 <i class="iconImage fa-brands fa-github fa-lg  text-light"></i>
             </a>
                 
@@ -306,7 +309,7 @@
         <section id="projects" class="text-center">
             <h2>프로젝트</h2>
 
-            <div class="card bg-dark text-white">
+            <div class="card bg-dark text-white m-auto">
                 <img src="./img/project_movie_selector.png" class="card-img-top" alt="프로젝트 : 영화 리뷰 사이트 이미지">
                 <div class="card-body">
                   <h5 class="card-title">무비 셀렉트</h5>
@@ -320,7 +323,7 @@
         </section>
     </main>
     <footer class="container-fluid bg-dark p-2">
-        <div class="row text-black ">
+        <div class="row text-white ">
             <a class="col-1 text-center nav-link" 
             href="https://github.com/Shin-3117"
             target="_blank">
