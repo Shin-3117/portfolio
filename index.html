@@ -115,11 +115,8 @@
             transform: rotate(-0.25turn)
         }
         #projects{
-            padding: 4% 8% 8%;
-            margin: auto;
-        }
-        .card{
-            max-width: 600px;
+            padding: 4%;
+
         }
     </style>
     
@@ -217,7 +214,7 @@
                         <h4>Info</h4>
                         <p>생년월일 : 1997.03.28</p>
                         <p>학력 : 부산대학교</p>
-                        <p>경력 : 매그나칩반도체 (6개월 : 22.07~22.12)</p>
+                        <p>경력 : 매그나칩반도체 (7개월 : 22.06~22.12)</p>
                         <p class="m-0">교육이수 :
                         <ul>
                             <li>코드스테이츠 경상남도 ABC-Lab (4개월 : 23.01~23.04)</li>
@@ -306,22 +303,27 @@
             
             
         </section>
-        <section id="projects" class="text-center">
-            <h2>프로젝트</h2>
-
-            <div class="card bg-dark text-white m-auto">
-                <img src="./img/project_movie_selector.png" class="card-img-top" alt="슈팅게임이미지">
+        <h2 class="text-center">프로젝트</h2>
+        <section id="projects" class="container-fluid text-center">
+            <div class="text-white row g-4">
+        <div class=" col-12 col-md-6">
+            <div class="card bg-dark text-white p-2">
+                <img src="./img/JS_Shooting_game.gif" class="card-img-top" alt="슈팅게임이미지">
                 <div class="card-body">
                   <h5 class="card-title">JS_Shooting_game</h5>
-                  <p class="card-text">HTML canvas 태그와 자바스크립트의 animate() 기능을 사용하여 만들었습니다.
-                    <br><a href="https://shin-3117.github.io/JS_Shooting_game/">플레이 하기</a>
+                  <p class="card-text">HTML canvas 태그와 
+                    자바스크립트의 animate() 기능을 사용하여 만들었습니다.
                 </p>
-                <br><a href="https://github.com/Shin-3117/JS_Shooting_game">깃허브 주소</a>
+                <div>
+                    <a href="https://shin-3117.github.io/JS_Shooting_game/" class="btn btn-primary mb-1">플레이 하기</a>
+                    <a href="https://github.com/Shin-3117/JS_Shooting_game" class="btn btn-secondary">프로젝트 깃허브로 이동</a>
+                </div>
                   
                 </div>
             </div>
-
-            <div class="card bg-dark text-white m-auto">
+        </div>
+        <div class=" col-12 col-md-6">
+            <div class="card bg-dark text-white p-2">
                 <img src="./img/project_movie_selector.png" class="card-img-top" alt="프로젝트 : 영화 리뷰 사이트 이미지">
                 <div class="card-body">
                   <h5 class="card-title">무비 셀렉트</h5>
@@ -329,9 +331,11 @@
                     <br>현재 서버 문제로 사이트가 정상 동작하지 않습니다.
                     <br>django를 서버로 사용하여 수리할 예정입니다.
                   </p>
-                  <a href="https://github.com/Shin-3117/select_movie" target="_blank" class="btn btn-danger">프로젝트 깃허브로 이동</a>
+                  <a href="https://github.com/Shin-3117/select_movie" target="_blank" class="btn btn-secondary">프로젝트 깃허브로 이동</a>
                 </div>
             </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer class="container-fluid bg-dark p-2">
