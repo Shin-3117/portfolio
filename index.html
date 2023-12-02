@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/favicon.svg">
+    <link rel="icon" href="./img/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4578d36163.js" crossorigin="anonymous"></script>
     <title>포트폴리오</title>
@@ -47,7 +47,7 @@
         }
         .iconImage{
             padding: 4px;
-            height: 21px;
+            height: 24px;
         }
         .AboutMeInfoWrapper{
             color: white;
@@ -119,7 +119,10 @@
         }
         #projects{
             padding: 4%;
-
+        }
+        .img1{
+          height: 32px;
+          margin-bottom: 4px;
         }
     </style>
     
@@ -185,25 +188,26 @@
                 Front-End Web Developer / Shin hyeonjung </div>
         </div>
         <div class="iconContainer bg-dark text-white p-2">
-            <a href="#skills">
+          <a href="#skills" class="iconSeccion">
             <i class="iconImage fa-brands fa-html5 fa-lg" style="color: #e34f26;"></i>
             <i class="iconImage fa-brands fa-css3-alt fa-lg" style="color :#1680C0"></i>
             <i class="iconImage fa-brands fa-sass fa-lg" style="color: #CD6799;"></i>
             <i class="iconImage fa-brands fa-bootstrap fa-lg" style="color: #563d7c;"></i>
-            <img src="/img/tailwindcss-mark.svg" alt="tailwindcss-mark" class="iconImage">
-        </a>
-        <a href="#JS">
-            <i class="iconImage fa-brands fa-js fa-lg" style="color: #F0DB4F;"></i>
-            <i class="iconImage fa-brands fa-react fa-lg" style="color: #61dbfb;"></i>
-            <i class="iconImage fa-brands fa-vuejs fa-lg" style="color: #41B883;"></i>
-            <i class="iconImage fa-brands fa-python fa-lg" style="color: #4584b6;"></i>
-        </a>
-            <a href="#skillsOther">
-            <i class="iconImage fa-brands fa-git-alt fa-lg" style="color: #f34f29;"></i>
-        </a>
-        <a href="https://github.com/Shin-3117" target="_blank">
-            <i class="iconImage fa-brands fa-github fa-lg  text-light"></i>
-        </a>
+            <img class="iconImage" src="./img/tailwindcss-mark.svg" alt="tailwindcss-mark" >
+          </a>
+          <a href="#JS" class="iconSeccion">
+              <i class="iconImage fa-brands fa-js fa-lg" style="color: #F0DB4F;"></i>
+              <img class="iconImage img1" src="./img/typescript-mark.svg" alt="typescript-mark" >
+              <i class="iconImage fa-brands fa-react fa-lg" style="color: #61dbfb;"></i>
+              <i class="iconImage fa-brands fa-vuejs fa-lg" style="color: #41B883;"></i>
+              <i class="iconImage fa-brands fa-python fa-lg" style="color: #4584b6;"></i>
+          </a>
+              <a href="#skillsOther">
+              <i class="iconImage fa-brands fa-git-alt fa-lg" style="color: #f34f29;"></i>
+          </a>
+          <a href="https://github.com/Shin-3117" target="_blank" class="iconSeccion">
+              <i class="iconImage fa-brands fa-github fa-lg  text-light"></i>
+          </a>
             
         </div>
             <div class="AboutMeInfoWrapper container-fluid bg-dark pt-5">
@@ -267,15 +271,18 @@
           </p>
         </div>
         <div id="JS" class="skillContainer">
-            <img src="/img/tailwindcss-mark.svg" alt="tailwindcss-mark" class="iconImageXl">
+            <img src="./img/tailwindcss-mark.svg" alt="tailwindcss-mark" class="iconImageXl">
           <p class="skillInfo fs-3">
             투자 정보 사이트 제작 경험이 있습니다
           </p>
         </div>
         <div class="skillContainer">
-          <i class="  iconImageXl fa-brands fa-js fa-2xl" style="color: #F0DB4F;"></i>
-          <p class="skillInfo fs-3">ES6+ 문법을 사용하여 개발을 진행합니다. <br>
-              Typescrip도 사용할 수 있도록 공부 중입니다.</p>
+          <i class="iconImageXl fa-brands fa-js fa-2xl" style="color: #F0DB4F;"></i>
+          <p class="skillInfo fs-3">ES6+ 문법을 사용하여 개발을 진행합니다.</p>
+        </div>
+        <div class="skillContainer">
+          <img class="iconImageXl" src="./img/typescript-mark.svg" alt="typescript-mark" >
+          <p class="skillInfo fs-3">프로젝트 경험이 있습니다.</p>
         </div>
         <div class="skillContainer">
           <i class="iconImageXl fa-brands fa-react fa-2xl" style="color: #61dbfb;"></i>
